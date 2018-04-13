@@ -7,7 +7,7 @@ db = myClient.mydb
 
 users = db.users
 
-results = (users.find())
+results = users.find()
 
 for result in results:
 
